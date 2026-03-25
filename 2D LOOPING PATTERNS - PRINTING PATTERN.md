@@ -24,13 +24,20 @@ To write a Python program to print a triangular star pattern using loops.
 ---
 
 ### PROGRAM
-```
-#Reg.No:
-#Name:
+```python
+#Reg.No: 212222060253
+#Name: SRIJAYAN T
 #Add Your Code Here
+r=int(input())
+m=r+1
+for i in range(0,m):
+    print("  "*(r-1),end="")
+    print(" "*i+"* "*(m-i))
 
 ```
 
 ### OUTPUT
+<img width="899" height="653" alt="image" src="https://github.com/user-attachments/assets/2ace1fdc-c6ae-4f15-ac5a-4f202bb2c0f8" />
 
 ### RESULT
+Thus a Python program to print a triangular star pattern using loops was executed and implemented successfully.
